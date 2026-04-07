@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Duplicate Reference Checker</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+        }
+
+        input {
+            padding: 8px;
+            width: 70%;
+        }
+
+        button {
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+
+        .success {
+            color: green;
+        }
+
+        .error {
+            color: red;
+        }
+
+        ul {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Reference Checker</h2>
+
+    <input type="text" id="inputRef" placeholder="Enter URL / DOI / ISBN">
+    <button onclick="checkDuplicate()">Check</button>
+
+    <p id="result"></p>
+
+    <h3>Stored References:</h3>
+    <ul id="list"></ul>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
