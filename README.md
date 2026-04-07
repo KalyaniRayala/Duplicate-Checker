@@ -24,11 +24,11 @@ A simple web prototype to detect duplicate references using normalization.
 
 ##  Live Demo
 
-(Add your Vercel link here after deployment)
+(https://vercel.com/kalyanirayalas-projects/duplicate-checker)
 
 ##  GitHub Repo
 
-(Add your repo link here)
+(https://github.com/KalyaniRayala/Duplicate-Checker)
 
 ##  Future Improvements
 
